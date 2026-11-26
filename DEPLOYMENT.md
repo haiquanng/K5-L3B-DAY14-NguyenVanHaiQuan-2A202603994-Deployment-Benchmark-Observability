@@ -63,7 +63,7 @@ done; echo
 | `GET /health` | 200 | 200 |
 | `GET /ready` | 200 | 200 |
 | `POST /ask` không key | 401 | 401 |
-| `POST /ask` có key | 200 | _(điền sau khi chạy)_ |
+| `POST /ask` có key | 200 | 200 |
 
 `python check_production_ready.py --public-url https://production-ai-agent-kp4j.onrender.com` → `Public URL: GET /health → 200`.
 

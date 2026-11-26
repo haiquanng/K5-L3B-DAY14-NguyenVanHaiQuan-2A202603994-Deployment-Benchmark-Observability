@@ -156,7 +156,7 @@ Theo hướng dẫn lớp K5, tôi deploy luôn agent Part 6 (`06-lab-complete/`
 
 - **URL:** https://production-ai-agent-kp4j.onrender.com
 - **Cách deploy:** Render Blueprint đọc `06-lab-complete/render.yaml`, tạo 2 tài nguyên gói free: web service `production-ai-agent-kp4j` (Docker, `rootDir: 06-lab-complete`, health check `/health`) và Key Value (Redis) `agent-redis-kp4j`. `AGENT_API_KEY` dùng `generateValue: true` (Render tự sinh), `REDIS_URL` lấy bằng `fromService` từ Redis. Không có secret nào trong code.
-- **Tự kiểm (CP6):** `/health` → 200, `/ready` → 200, `/ask` không có key → 401, `/ask` có key → _(điền sau khi chạy với key lấy từ Render Dashboard)_.
+- **Tự kiểm (CP6):** `/health` → 200, `/ready` → 200, `/ask` không có key → 401, `/ask` có key (key lấy từ Render Dashboard, không ghi vào repo) → 200.
 - Chi tiết lệnh và biến môi trường: [DEPLOYMENT.md](DEPLOYMENT.md). Ảnh: [dashboard](screenshots/dashboard.png), [running](screenshots/running.png), [test](screenshots/test.png).
 
 ### Nền tảng còn lại: so sánh `railway.toml` với `render.yaml`
