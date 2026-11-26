@@ -72,10 +72,10 @@ Sửa ở `develop/utils/mock_llm.py` và chép sang `production/utils/mock_llm.
 
 ### 4.1 Screenshot
 
-- [ ] Dashboard Grafana khi đang có tải (thấy rõ Golden Signals) — `screenshots/grafana-dashboard.png`
-- [ ] Một trace chậm trong Jaeger — `screenshots/jaeger-slow-trace.png`
-- [ ] Một trace lỗi trong Jaeger (có event `exception`) — `screenshots/jaeger-error-trace.png`
-- [ ] Trang Alerts của Prometheus với 2 alert cùng **firing** — `screenshots/prometheus-alert-firing.png`
+- [x] Dashboard Grafana khi đang có tải (thấy rõ Golden Signals) — `screenshots/grafana-dashboard.png`
+- [x] Một trace chậm trong Jaeger — `screenshots/jaeger-slow-trace.png`
+- [x] Một trace lỗi trong Jaeger (có event `exception`) — `screenshots/jaeger-error-trace.png`
+- [x] Trang Alerts của Prometheus với 2 alert cùng **firing** — `screenshots/prometheus-alert-firing.png`
 
 **Trả lời Exercise 7.4:**
 
